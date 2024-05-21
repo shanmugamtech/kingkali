@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--Title-->
+    <meta charset="UTF-8">
+    <title>HOME</title>
+    <link rel="stylesheet" rel="icon" type="image/x-icon" href="images/KALI.png" />
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <!--CSS Connection-->
+    <link rel="stylesheet" href="styles/event.css" />
+    <!--JS Connection-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Add icon library -->
+    <script src="https://kit.fontawesome.com/56e21f2804.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="mainTop">
+        <h1>PRIVATE DINING ROOM</h1>
+        <div class="mt-sm-5 mt-lg-0">
+            <a href="home.html" style="padding-right: 10px;"><i class="fa fa-backward" aria-hidden="true"></i>&nbsp; Back</a>
+            <a href="login.html" style="padding-left: 10px;"> Sign in <i class="fa fa-sign-in" aria-hidden="true"></i></a>
+        </div>
+    </div>
+    <div class="text-style">
+        <img src="images/outdoor.jpg" alt="" class="text_image">
+        <h2>Dining Gallery</h2>
+        <p>Our private dining room is an exquisite destination for you to gather your loved ones for an intimate meal hidden beneath one of NYC's hottest restaurants.
+            <br> Enjoy favorites from our dinner menu, cocktails and bites, or our inventive New York-meets-Indian brunch menu
+            <br>(think everything bagel naan, cardamom waffles, and our take on a burger).
+        </p>
+        <h6>GUEST CAPACITY</h6>
+        <p>MAX-80ppl <br>MIN - 30ppl</p>
+    </div>
+    <div class="reserveDiv">
+        <label for="noofpeople">No of People</label>&nbsp;&nbsp;
+        <input type="number" name="noofpeople" id="noofpeople" placeholder="Eg: 3">
+        <label for="dateneed">Date</label>&nbsp;&nbsp;
+        <input type="date" name="dateneed" id="dateneed">
+        <label for="timeneed">Time <span style="font-size: small; text-decoration: underline; color: red;">(9:00 AM - 9:00 PM)</span></label>&nbsp;&nbsp;
+        <input type="time" name="timeneed" id="timeneed" placeholder="">
+        <label for="status">Dining Area</label>
+        <select id="status" class="form-control">
+            <option value="Active">Indoore</option>
+            <option value="Inactive">Outdoore</option>
+        </select>
+    </div>
+</body>
+
+</html>

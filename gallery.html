@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--Title-->
+    <meta charset="UTF-8">
+    <title>Gallery</title>
+    <link rel="stylesheet" rel="icon" type="image/x-icon" href="images/KALI.png" />
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <!--CSS Connection-->
+    <link rel="stylesheet" href="styles/gallery.css" />
+    <!--JS Connection-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Add icon library -->
+    <script src="https://kit.fontawesome.com/56e21f2804.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--About Me Page-->
+    <div class="aboutPageBg">
+        <div class="navTop">
+            <h1>GALLERY</h1>
+            <div class="btn-group" role="group" aria-label="Basic example">
+                <button type="button" class="btn mainBtn"><a href="home.html" style="color: black;">HOME</a</button>
+                <button type="button" class="btn mainBtn"><a href="about.html" style="color: black;">ABOUT</a></button>
+                <button type="button" class="btn mainBtn"><a href="menu.html" style="color: black;">MENU</a></button>
+                <button type="button" class="btn mainBtn"><a href="gallery.html" style="color: black;">GALLERY</a></button>
+                <button type="button" class="btn mainBtn"><a href="contact.html" style="color: black;">CONTACT</a></button>
+                <button type="button" class="btn mainBtn"><a href="feedback.html" style="color: black;">FEEDBACK</a></button>
+            </div>
+        </div>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade carouser_size" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" style="height: 80vh;">
+                    <img src="images/gallery-1.jpg" class="d-block w-100" alt="..." style="background-image: fill 0 linear-gradient(#003,#000);">
+                </div>
+                <div class="carousel-item" style="height: 80vh;">
+                    <img src="images/gallery-2.jpg" class="d-block w-100" alt="..." style="background-image: fill 0 linear-gradient(#003,#000);">
+                </div>
+                <div class="carousel-item" style="height: 80vh;">
+                    <img src="images/gallery-3.jpg" class="d-block w-100" alt="..." style="background-image: fill 0 linear-gradient(#003,#000);">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <!--Footer page-->
+    <div class="footerBg">
+        <img src="images/KALI.png" alt="">
+    </div>
+    <div class="d-sm-none"></div>
+    <hr class="footerHr ">
+    <div class="footerBg">
+        <a href="home.html" class="pb-md-5">HOME</a>
+        <a href="about.html" class="pb-md-5">ABOUT</a>
+        <a href="gallery.html" class="pb-md-5">Gallery</a>
+        <a href="menu.html" class="pb-md-5">MENU</a>
+        <a href="feedback.html" class="pb-md-5">FEEDBACK</a>
+        <a href="contact.html" class="pb-md-5">CONTACT</a>
+    </div>
+    <hr class="footerHr">
+    <div class="address">
+        <p style="color: black; text-shadow: 2px 2px 1px white; font-size: large; font-weight: 700; padding-bottom: 20px;">FOLLOW ALONG&nbsp;&nbsp;<img src="images/tick.png" alt="" height="">
+        </p>
+    </div>
+    <div class="footerBgIcon">
+        <a href="#"><i class="fab fa-instagram-square" id="instagram" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-youtube" id="youtube" aria-hidden="true"></i></a>
+        <a href="#"><i class="fab fa-facebook-square" id="facebook" aria-hidden="true"></i></a>
+        <a href="#"><i class="fab fa-whatsapp-square" id="whatsapp" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-phone-square" id="phone" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-envelope" id="email" aria-hidden="true"></i></a> <br>
+    </div>
+    <div class="address">
+        <p>Nachikuppam, Vepanapali <br> Krishnagiri Dt - 635121 <br>Krishnagiri - Berigai Main Road <br>+91 93615 47043</p>
+    </div>
+</body>
+
+</html>

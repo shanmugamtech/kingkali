@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--Title-->
+    <meta charset="UTF-8">
+    <title>HOME</title>
+    <link rel="stylesheet" rel="icon" type="image/x-icon" href="images/KALI.png" />
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <!--CSS Connection-->
+    <link rel="stylesheet" href="styles/menu.css" />
+    <!--JS Connection-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Add icon library -->
+    <script src="https://kit.fontawesome.com/56e21f2804.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--About Me Page-->
+    <div class="aboutPageBg">
+        <div class="navTop">
+            <h1>MENU</h1>
+            <div class="btn-group" role="group" aria-label="Basic example">
+                <button type="button" class="btn mainBtn"><a href="home.html" style="color: black;">HOME</a</button>
+                <button type="button" class="btn mainBtn"><a href="about.html" style="color: black;">ABOUT</a></button>
+                <button type="button" class="btn mainBtn"><a href="menu.html" style="color: black;">MENU</a></button>
+                <button type="button" class="btn mainBtn"><a href="gallery.html" style="color: black;">GALLERY</a></button>
+                <button type="button" class="btn mainBtn"><a href="contact.html" style="color: black;">CONTACT</a></button>
+                <button type="button" class="btn mainBtn"><a href="feedback.html" style="color: black;">FEEDBACK</a></button>
+            </div>
+        </div>
+        <div class="text-center">
+            <div class="menuMaineDiv">
+                <div>
+                    <!-- Button trigger modal -->
+                    <a type="button" class="btn btn-primary" data-toggle="modal" data-target="#dinner">Dinner</a>
+                    <!-- Modal -->
+                    <div class="modal fade" id="dinner" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header bg-success">
+                                    <h5 class="modal-title" style="color: wheat;" id="exampleModalLabel">Dinner</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <h4 class="notavailable">Not Available Dish's</h4>
+                                    <p>None<br></p>
+                                    <h4 class="available">Available Dish's</h4>
+                                    <p>All dish's are Available.</p>
+                                    <img src="images/dinner.png" style="width: 100%;">
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <!-- Button trigger modal -->
+                        <a type="button" class="btn btn-primary" data-toggle="modal" data-target="#breakFast">Breakfast</a>
+                        <!-- Modal -->
+                        <div class="modal fade" id="breakFast" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header bg-success">
+                                        <h5 class="modal-title" style="color: wheat;" id="exampleModalLabel">Breakfast</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h4 class="notavailable">Not Available Dish's</h4>
+                                        <p>Hot Idly <br> Idiyappam <br> Fulka</p>
+                                        <h4 class="available">Available Dish's</h4>
+                                        <p>Other Than this 3-dish other are available.</p>
+                                        <img src="images/breakfastlist.png" style="width: 100%;" alt="">
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <!-- Button trigger modal -->
+                        <a type="button" class="btn btn-primary" data-toggle="modal" data-target="#lunch">lunch</a>
+                        <!-- Modal -->
+                        <div class="modal fade" id="lunch" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header bg-success">
+                                        <h5 class="modal-title" style="color: wheat;" id="exampleModalLabel">Lunch</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h4 class="notavailable">Not Available Dish's</h4>
+                                        <p>Akki Roti (Rice Flour Roti)<br></p>
+                                        <h4 class="available">Available Dish's</h4>
+                                        <p>Other Than this 1-dish other are available.</p>
+                                        <img src="images/lunchlist.png" style="width: 100%;">
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <!-- Button trigger modal -->
+                        <a type="button" class="btn btn-primary" data-toggle="modal" data-target="#combo">combo</a>
+                        <!-- Modal -->
+                        <div class="modal fade" id="combo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header bg-success">
+                                        <h5 class="modal-title" style="color: wheat;" id="exampleModalLabel">Combo</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h4 class="notavailable">Not Available Dish's</h4>
+                                        <p>None<br></p>
+                                        <h4 class="available">Available Dish's</h4>
+                                        <p>All dish's are Available.</p>
+                                        <img src="images/combo.png" style="width: 100%;">
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <!-- Button trigger modal -->
+                        <a type="button" class="btn btn-primary" data-toggle="modal" data-target="#snacks">snacks</a>
+                        <!-- Modal -->
+                        <div class="modal fade" id="snacks" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header bg-success">
+                                        <h5 class="modal-title" style="color: wheat;" id="exampleModalLabel">Snacks</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h4 class="notavailable">Not Available Dish's</h4>
+                                        <p>None<br></p>
+                                        <h4 class="available">Available Dish's</h4>
+                                        <p>All dish's are Available.</p>
+                                        <img src="images/snacks.png" style="width: 100%;">
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <!-- Button trigger modal -->
+                        <a type="button" class="btn btn-primary" data-toggle="modal" data-target="#fastFood">Fast Food</a>
+                        <!-- Modal -->
+                        <div class="modal fade" id="fastFood" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header bg-success">
+                                        <h5 class="modal-title" style="color: wheat;" id="exampleModalLabel">Fast Food</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h4 class="notavailable">Not Available Dish's</h4>
+                                        <p>None<br></p>
+                                        <h4 class="available">Available Dish's</h4>
+                                        <p>All dish's are Available.</p>
+                                        <img src="images/fastfood.png" style="width: 100%;">
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
