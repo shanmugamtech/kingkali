@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Guerrilla&family=Protest+Revolution&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+20&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+20&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Pacifico&display=swap');
+
+/*Background All*/
+
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+/*About Page*/
+
+.aboutPageBg {
+    background-image: url(../images/homeBg.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.navTop {
+    background-color: #6a8e23;
+    height: 20vh;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.navTop h1 {
+    text-align: center;
+    align-items: center;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 65px;
+    font-style: bold;
+    color: wheat;
+    text-shadow: 2px 2px 2px #000;
+}
+
+.mainBtn {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: large;
+    font-weight: 700;
+    text-shadow: 2px 2px 1px white;
+}
+
+@media (max-width:1000px) {
+    .mainBtn {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        color: black;
+        font-size: large;
+        font-weight: 700;
+        text-shadow: 2px 2px 1px white;
+    }
+    .mainBtn {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        color: black;
+        font-size: xx-small;
+        text-shadow: 2px 2px 1px white;
+    }
+}
+
+.mainBtn:hover {
+    color: #000;
+    text-shadow: none;
+}
+
+.menuMaineDiv {
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    width: 100%;
+    margin-bottom: 90px;
+}
+
+.menuMaineDiv>div {
+    flex: 1;
+    transition: all 2s;
+}
+
+.menuMaineDiv>div:nth-child(1) {
+    background: url("/images/lunch.avif");
+    background-position: center;
+    background-size: cover;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.menuMaineDiv>div:nth-child(2) {
+    background: url("/images/breakfast.jpeg");
+    background-position: center;
+    background-size: cover;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.menuMaineDiv>div:nth-child(3) {
+    background: url("/images/dinner.jpeg");
+    background-position: center;
+    background-size: cover;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.menuMaineDiv>div:nth-child(4) {
+    background: url("/images/combo.jpg");
+    background-position: center;
+    background-size: cover;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.menuMaineDiv>div:nth-child(5) {
+    background: url("/images/snacks.avif");
+    background-position: center;
+    background-size: cover;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.menuMaineDiv>div:nth-child(6) {
+    background: url("/images/fastfood.jpeg");
+    background-position: center;
+    background-size: cover;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.menuMaineDiv>div:hover {
+    flex: 5;
+}
+
+.menuMaineDiv a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: wheat;
+    background-color: #000;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px;
+    font-size: xx-small;
+}
+
+.recipe {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.available {
+    font-size: 26px;
+    color: green;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.notavailable {
+    font-size: 26px;
+    color: red;
+    font-weight: 400;
+    text-transform: capitalize;
+}

@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Guerrilla&family=Protest+Revolution&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+20&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+20&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+
+/*Background All*/
+
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #ebd6d6;
+    padding: 40px;
+}
+
+.mainTop {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.mainTop a {
+    color: red;
+    font-size: medium;
+    text-decoration: underline;
+}
+
+.mainTop h1 {
+    font-size: auto;
+    color: black;
+    text-shadow: 2px 2px 2px wheat;
+    text-align: center;
+    font-family: "Bad Script", cursive;
+}
+
+.text-style {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin: 60px;
+    text-align: center;
+}
+
+.text_image {
+    height: 100%;
+    width: 700px;
+    transition: all 2s;
+}
+
+@media (max-width:850px) {
+    .text_image {
+        height: 100%;
+        width: 700px;
+    }
+    .text_image {
+        height: 100%;
+        width: 350px;
+    }
+}
+
+.text_image:hover {
+    scale: 1.1;
+    margin-bottom: 20px;
+    border-image: fill 0 linear-gradient(#0003, #000);
+}
+
+.text-style h2 {
+    margin-top: 20px;
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.text-style h6 {
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+.reserveDiv {
+    display: flex;
+    flex-direction: column;
+    margin: 60px;
+}
+
+.reserveDiv label {
+    font-size: x-large;
+    color: #567f03;
+    margin-top: 20px;
+}
+
+input {
+    height: 36px;
+    padding: 5px;
+}
